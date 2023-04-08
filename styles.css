@@ -98,6 +98,7 @@ img {
 }
 
 .your-score {
+  margin-top: 20px;
   font-size: 1.2rem;
   font-weight: 600;
   color: rebeccapurple;
@@ -110,12 +111,18 @@ img {
 }
 
 .round {
+  position: absolute;
+  right: 15px;
+  top: 8px;
   font-size: 1rem;
-  font-weight: 400;
-  color: #3d1f5e;
+  color: rebeccapurple;
   margin-bottom: 10px;
-  
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 14px;
+  border-radius: 100px;
 }
+
 .try-again {
   text-align: center;
 }
@@ -138,4 +145,6 @@ img {
   button {
     margin: 0;
   }
+
+
   }
