@@ -122,6 +122,9 @@ function hidePlayButton() {
 }
 
 playButton.addEventListener('click', () => {
+  let roundDiv = document.getElementById("round-count") 
+  roundDiv.setAttribute("style", "")
+
   if (count <5) {
     dogImg()}
     endGame()
